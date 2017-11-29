@@ -232,7 +232,7 @@ header.masthead {
 }
 @media (max-width: 900px){
     .topbar{
-        display: none;
+        display: none!important;
     }
 }
 
@@ -246,6 +246,9 @@ header.masthead {
         color: #50545a!important;
         background: transparent;
         border-radius: 50px;
+    }
+    .dn-t{
+        display: none;
     }
 }
 
