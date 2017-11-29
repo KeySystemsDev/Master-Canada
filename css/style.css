@@ -230,6 +230,11 @@ header.masthead {
         text-align: center;
     }
 }
+@media (max-width: 900px){
+    .topbar{
+        display: none;
+    }
+}
 
 @media (max-width: 550px){
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
@@ -241,9 +246,6 @@ header.masthead {
         color: #50545a!important;
         background: transparent;
         border-radius: 50px;
-    }
-    .topbar{
-        display: none;
     }
 }
 
