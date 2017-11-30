@@ -10,6 +10,12 @@ section {
 a:link {
     text-decoration: none;
 }
+a{
+    color: #50545a;
+}
+.white{
+    color: white!important;
+}
 .resposive-img {
     /*height: auto;*/
     max-width: 100%;
@@ -299,6 +305,9 @@ header.masthead {
     .pt90{
         padding-top: 90px;
     }
+    .dn{
+        display: none;
+    }
 }
 @media (max-width: 900px){
     .topbar{
@@ -319,6 +328,9 @@ header.masthead {
     }
     .dn-t{
         display: none;
+    }
+    .idoma{
+        float: none;
     }
 }
 
